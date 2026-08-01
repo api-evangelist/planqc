@@ -1,7 +1,31 @@
 aid: planqc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/planqc.png
 name: Planqc
-description: Planqc is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  planqc GmbH is a German quantum computing company building neutral-atom quantum
+  computers, using individual atoms trapped in optical lattices as qubits on what it
+  describes as the most promising path to fault-tolerant, scalable systems. Founded in
+  2022 as a spin-off of the Max Planck Institute of Quantum Optics and Ludwig
+  Maximilian University of Munich, the company delivers full-stack quantum computing —
+  hardware, control software, and applications — including its MAQCS (Multicore Atomic
+  Quantum Computing System) line for enterprise and scientific customers across
+  aerospace, automotive, energy, and financial services. planqc operates from Garching
+  and Ulm in Germany and Innsbruck in Austria, and is backed by investors including
+  Speedinvest. As of this profile the company exposes no public developer API, SDK,
+  developer portal, or programmatic cloud-access surface; access is arranged directly
+  through the company. This profile is a portfolio-lead stub in the API Evangelist
+  network, enriched with verified public identity and a domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/planqc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Quantum Computing
+- Deep Tech
+- Hardware
+- Neutral Atoms
+- Germany
+- Research
 apis: []
+common:
+- type: Website
+  url: https://planqc.eu/
+- type: GitHubOrganization
+  url: https://github.com/planqc
+- type: DomainSecurity
+  url: security/planqc-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
